@@ -1,0 +1,38 @@
+{
+    "name": "particles2",
+    "version": "1.0.0",
+    "description": "A javascript 2d canvas particle effects engine.",
+    "scripts": {
+        "build": "webpack --config webpack.common.cjs"
+    },
+    "keywords": ["engine", "library", "ape apps", "module", "game", "particle effect"],
+    "homepage": "https://www.ape-apps.com",
+    "bugs": {
+        "email": "support@ape-apps.com"
+    },
+    "author": {
+        "name": "Ape Apps",
+        "email": "support@ape-apps.com",
+        "url": "https://www.ape-apps.com"
+    },
+    "funding": {
+        "type": "patreon",
+        "url": "https://www.patreon.com/apeapps"
+    },
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bastecklein/particles2"
+    },
+    "main": "src/index.js",
+    "config": {},
+    "dependencies": {
+        "common-helpers": "git+ssh://git@github.com:bastecklein/common-helpers.git#main"
+    },
+    "devDependencies": {
+        "webpack": "*",
+        "webpack-cli": "*"
+    },
+    "private": false,
+    "type": "module"
+}
