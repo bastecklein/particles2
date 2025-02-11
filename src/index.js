@@ -1318,3 +1318,8 @@ const predefinedEffectPrograms = {
         }
     ]
 };
+
+export default {
+    getInstance,
+    getPrograms
+};
